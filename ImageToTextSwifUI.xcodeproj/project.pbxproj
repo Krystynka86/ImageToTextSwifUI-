@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B8F2BEB2C2AAB3D00D14B74 /* ImageToTextSwifUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F2BEA2C2AAB3D00D14B74 /* ImageToTextSwifUIApp.swift */; };
+		6B8F2BED2C2AAB3D00D14B74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F2BEC2C2AAB3D00D14B74 /* ContentView.swift */; };
+		6B8F2BEF2C2AAB3F00D14B74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F2BEE2C2AAB3F00D14B74 /* Assets.xcassets */; };
+		6B8F2BF32C2AAB3F00D14B74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B8F2BF22C2AAB3F00D14B74 /* Preview Assets.xcassets */; };
+		6B8F2BFD2C2AAB3F00D14B74 /* ImageToTextSwifUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F2BFC2C2AAB3F00D14B74 /* ImageToTextSwifUITests.swift */; };
+		6B8F2C072C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F2C062C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.swift */; };
+		6B8F2C092C2AAB3F00D14B74 /* ImageToTextSwifUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B8F2C082C2AAB3F00D14B74 /* ImageToTextSwifUIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B8F2BF92C2AAB3F00D14B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8F2BDF2C2AAB3D00D14B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8F2BE62C2AAB3D00D14B74;
+			remoteInfo = ImageToTextSwifUI;
+		};
+		6B8F2C032C2AAB3F00D14B74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B8F2BDF2C2AAB3D00D14B74 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B8F2BE62C2AAB3D00D14B74;
+			remoteInfo = ImageToTextSwifUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B8F2BE72C2AAB3D00D14B74 /* ImageToTextSwifUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageToTextSwifUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F2BEA2C2AAB3D00D14B74 /* ImageToTextSwifUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToTextSwifUIApp.swift; sourceTree = "<group>"; };
+		6B8F2BEC2C2AAB3D00D14B74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6B8F2BEE2C2AAB3F00D14B74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B8F2BF02C2AAB3F00D14B74 /* ImageToTextSwifUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ImageToTextSwifUI.entitlements; sourceTree = "<group>"; };
+		6B8F2BF22C2AAB3F00D14B74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6B8F2BF82C2AAB3F00D14B74 /* ImageToTextSwifUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageToTextSwifUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F2BFC2C2AAB3F00D14B74 /* ImageToTextSwifUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToTextSwifUITests.swift; sourceTree = "<group>"; };
+		6B8F2C022C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageToTextSwifUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B8F2C062C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToTextSwifUIUITests.swift; sourceTree = "<group>"; };
+		6B8F2C082C2AAB3F00D14B74 /* ImageToTextSwifUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageToTextSwifUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B8F2BE42C2AAB3D00D14B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F2BF52C2AAB3F00D14B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F2BFF2C2AAB3F00D14B74 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B8F2BDE2C2AAB3D00D14B74 = {
+			isa = PBXGroup;
+			children = (
+				6B8F2BE92C2AAB3D00D14B74 /* ImageToTextSwifUI */,
+				6B8F2BFB2C2AAB3F00D14B74 /* ImageToTextSwifUITests */,
+				6B8F2C052C2AAB3F00D14B74 /* ImageToTextSwifUIUITests */,
+				6B8F2BE82C2AAB3D00D14B74 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B8F2BE82C2AAB3D00D14B74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F2BE72C2AAB3D00D14B74 /* ImageToTextSwifUI.app */,
+				6B8F2BF82C2AAB3F00D14B74 /* ImageToTextSwifUITests.xctest */,
+				6B8F2C022C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B8F2BE92C2AAB3D00D14B74 /* ImageToTextSwifUI */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F2BEA2C2AAB3D00D14B74 /* ImageToTextSwifUIApp.swift */,
+				6B8F2BEC2C2AAB3D00D14B74 /* ContentView.swift */,
+				6B8F2BEE2C2AAB3F00D14B74 /* Assets.xcassets */,
+				6B8F2BF02C2AAB3F00D14B74 /* ImageToTextSwifUI.entitlements */,
+				6B8F2BF12C2AAB3F00D14B74 /* Preview Content */,
+			);
+			path = ImageToTextSwifUI;
+			sourceTree = "<group>";
+		};
+		6B8F2BF12C2AAB3F00D14B74 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F2BF22C2AAB3F00D14B74 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6B8F2BFB2C2AAB3F00D14B74 /* ImageToTextSwifUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F2BFC2C2AAB3F00D14B74 /* ImageToTextSwifUITests.swift */,
+			);
+			path = ImageToTextSwifUITests;
+			sourceTree = "<group>";
+		};
+		6B8F2C052C2AAB3F00D14B74 /* ImageToTextSwifUIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B8F2C062C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.swift */,
+				6B8F2C082C2AAB3F00D14B74 /* ImageToTextSwifUIUITestsLaunchTests.swift */,
+			);
+			path = ImageToTextSwifUIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B8F2BE62C2AAB3D00D14B74 /* ImageToTextSwifUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8F2C0C2C2AAB3F00D14B74 /* Build configuration list for PBXNativeTarget "ImageToTextSwifUI" */;
+			buildPhases = (
+				6B8F2BE32C2AAB3D00D14B74 /* Sources */,
+				6B8F2BE42C2AAB3D00D14B74 /* Frameworks */,
+				6B8F2BE52C2AAB3D00D14B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageToTextSwifUI;
+			productName = ImageToTextSwifUI;
+			productReference = 6B8F2BE72C2AAB3D00D14B74 /* ImageToTextSwifUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B8F2BF72C2AAB3F00D14B74 /* ImageToTextSwifUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8F2C0F2C2AAB3F00D14B74 /* Build configuration list for PBXNativeTarget "ImageToTextSwifUITests" */;
+			buildPhases = (
+				6B8F2BF42C2AAB3F00D14B74 /* Sources */,
+				6B8F2BF52C2AAB3F00D14B74 /* Frameworks */,
+				6B8F2BF62C2AAB3F00D14B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8F2BFA2C2AAB3F00D14B74 /* PBXTargetDependency */,
+			);
+			name = ImageToTextSwifUITests;
+			productName = ImageToTextSwifUITests;
+			productReference = 6B8F2BF82C2AAB3F00D14B74 /* ImageToTextSwifUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B8F2C012C2AAB3F00D14B74 /* ImageToTextSwifUIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B8F2C122C2AAB3F00D14B74 /* Build configuration list for PBXNativeTarget "ImageToTextSwifUIUITests" */;
+			buildPhases = (
+				6B8F2BFE2C2AAB3F00D14B74 /* Sources */,
+				6B8F2BFF2C2AAB3F00D14B74 /* Frameworks */,
+				6B8F2C002C2AAB3F00D14B74 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B8F2C042C2AAB3F00D14B74 /* PBXTargetDependency */,
+			);
+			name = ImageToTextSwifUIUITests;
+			productName = ImageToTextSwifUIUITests;
+			productReference = 6B8F2C022C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B8F2BDF2C2AAB3D00D14B74 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					6B8F2BE62C2AAB3D00D14B74 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					6B8F2BF72C2AAB3F00D14B74 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6B8F2BE62C2AAB3D00D14B74;
+					};
+					6B8F2C012C2AAB3F00D14B74 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 6B8F2BE62C2AAB3D00D14B74;
+					};
+				};
+			};
+			buildConfigurationList = 6B8F2BE22C2AAB3D00D14B74 /* Build configuration list for PBXProject "ImageToTextSwifUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B8F2BDE2C2AAB3D00D14B74;
+			productRefGroup = 6B8F2BE82C2AAB3D00D14B74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B8F2BE62C2AAB3D00D14B74 /* ImageToTextSwifUI */,
+				6B8F2BF72C2AAB3F00D14B74 /* ImageToTextSwifUITests */,
+				6B8F2C012C2AAB3F00D14B74 /* ImageToTextSwifUIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B8F2BE52C2AAB3D00D14B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F2BF32C2AAB3F00D14B74 /* Preview Assets.xcassets in Resources */,
+				6B8F2BEF2C2AAB3F00D14B74 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F2BF62C2AAB3F00D14B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F2C002C2AAB3F00D14B74 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B8F2BE32C2AAB3D00D14B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F2BED2C2AAB3D00D14B74 /* ContentView.swift in Sources */,
+				6B8F2BEB2C2AAB3D00D14B74 /* ImageToTextSwifUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F2BF42C2AAB3F00D14B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F2BFD2C2AAB3F00D14B74 /* ImageToTextSwifUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B8F2BFE2C2AAB3F00D14B74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B8F2C072C2AAB3F00D14B74 /* ImageToTextSwifUIUITests.swift in Sources */,
+				6B8F2C092C2AAB3F00D14B74 /* ImageToTextSwifUIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B8F2BFA2C2AAB3F00D14B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8F2BE62C2AAB3D00D14B74 /* ImageToTextSwifUI */;
+			targetProxy = 6B8F2BF92C2AAB3F00D14B74 /* PBXContainerItemProxy */;
+		};
+		6B8F2C042C2AAB3F00D14B74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B8F2BE62C2AAB3D00D14B74 /* ImageToTextSwifUI */;
+			targetProxy = 6B8F2C032C2AAB3F00D14B74 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6B8F2C0A2C2AAB3F00D14B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B8F2C0B2C2AAB3F00D14B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		6B8F2C0D2C2AAB3F00D14B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageToTextSwifUI/ImageToTextSwifUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageToTextSwifUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sajakkrystynavisionimagetotext.com.ImageToTextSwifUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B8F2C0E2C2AAB3F00D14B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ImageToTextSwifUI/ImageToTextSwifUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImageToTextSwifUI/Preview Content\"";
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sajakkrystynavisionimagetotext.com.ImageToTextSwifUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B8F2C102C2AAB3F00D14B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sajakkrystynavisionimagetotext.com.ImageToTextSwifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageToTextSwifUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageToTextSwifUI";
+			};
+			name = Debug;
+		};
+		6B8F2C112C2AAB3F00D14B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sajakkrystynavisionimagetotext.com.ImageToTextSwifUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageToTextSwifUI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImageToTextSwifUI";
+			};
+			name = Release;
+		};
+		6B8F2C132C2AAB3F00D14B74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sajakkrystynavisionimagetotext.com.ImageToTextSwifUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageToTextSwifUI;
+			};
+			name = Debug;
+		};
+		6B8F2C142C2AAB3F00D14B74 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = UXC7U9N9AB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sajakkrystynavisionimagetotext.com.ImageToTextSwifUIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImageToTextSwifUI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B8F2BE22C2AAB3D00D14B74 /* Build configuration list for PBXProject "ImageToTextSwifUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F2C0A2C2AAB3F00D14B74 /* Debug */,
+				6B8F2C0B2C2AAB3F00D14B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8F2C0C2C2AAB3F00D14B74 /* Build configuration list for PBXNativeTarget "ImageToTextSwifUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F2C0D2C2AAB3F00D14B74 /* Debug */,
+				6B8F2C0E2C2AAB3F00D14B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8F2C0F2C2AAB3F00D14B74 /* Build configuration list for PBXNativeTarget "ImageToTextSwifUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F2C102C2AAB3F00D14B74 /* Debug */,
+				6B8F2C112C2AAB3F00D14B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B8F2C122C2AAB3F00D14B74 /* Build configuration list for PBXNativeTarget "ImageToTextSwifUIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B8F2C132C2AAB3F00D14B74 /* Debug */,
+				6B8F2C142C2AAB3F00D14B74 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B8F2BDF2C2AAB3D00D14B74 /* Project object */;
+}
